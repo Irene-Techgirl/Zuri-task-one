@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irene's data</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 data-testid="title">Personal Data Dashboard</h1>
+    </header>
+    
+    <section>
+        <div class="data-card" data-testid="name-card">
+            <h2 data-testid="name">Irene Agbani</h2>
+            </div>
+
+            <div class="data-card-profile" data-testid="slackDisplayImage">
+            <img src="images/SlackDisplayImage.jpeg" alt="Irene Agbani" class="img-card">
+        </div>
+        </div>
+
+    </section>
+    <section class="grid-container">
+    <section>
+        <div class="date-card" data-testid="current-date-card">
+            <h2>Current Date</h2>
+            <p data-testid="current-date">Loading...</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="real-time-data">
+        <h2 data-testid="real-time-title" >Time</h2>
+        <div class="real-time-data" data-testid="real-time-data">
+            <!-- Real-time data will be displayed here -->
+        </div>
+    </div>
+</section>
+    <div class="data-card" data-testid="myTrack">
+        <h2>My track</h2>
+        <p data-testid="myTrack">Frontend</p>
+    </div>
+    
+    </section>
+    <section>
+        
+        <div class="data-card" data-testid="githubURL">
+            <h2>Github Page</h2>
+            <a href="https://github.com/Irene-Techgirl">My Account</a>
+        </div>
+    </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

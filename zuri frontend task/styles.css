@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color:#feac00  ;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+}
+
+img{
+    width: 20%;
+
+}
+
+.data-card {
+    border: 1px solid #cf9708;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.data-card-profile{
+    border: 1px solid #cf9708;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.real-time-data {
+    border: 1px solid #cf9708;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.date-card {
+    border: 1px solid #cf9708;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+a{
+    color: blueviolet;
+    text-decoration: none;
+}
